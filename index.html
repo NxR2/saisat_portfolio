@@ -2,264 +2,456 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Sai Sat Naing Win – Junior SOC Analyst</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sai Sat Naing Win | Junior SOC Analyst</title>
   <meta
     name="description"
-    content="Portfolio of Sai Sat Naing Win – Junior SOC Analyst / Junior Cybersecurity Analyst. Projects in SIEM, network traffic analysis, Linux, firewall, and IDS/IPS."
+    content="Sai Sat Naing Win – Junior SOC Analyst and Junior Cybersecurity Analyst portfolio. Network security, SIEM, Linux, Wireshark, firewall and IDS/IPS projects."
   />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">Sai Sat Naing Win</h1>
-      <p class="site-subtitle">
-        Junior SOC Analyst | Junior Cybersecurity Analyst
-      </p>
-      <nav class="site-nav">
+  <div class="noise"></div>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Homepage">
+        <span class="brand-mark">SS</span>
+        <span class="brand-name">SAI SAT NAING WIN</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#resume">Resume</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </nav>
+
+      <a class="nav-button" href="#contact">Let’s connect <span>↗</span></a>
     </div>
   </header>
 
-  <main class="container">
-    <!-- About -->
-    <section id="about" class="section">
-      <h2 class="section-title">About Me</h2>
-      <div class="section-content">
-        <p>
-          I am an aspiring Junior SOC Analyst based in Yangon, Myanmar. I hold
-          a BSc (Hons) Computing with Distinction from Edinburgh Napier
-          University.
-        </p>
-        <p>
-          My cybersecurity interests include SIEM monitoring, alert triage,
-          Linux system administration, network traffic analysis, firewall
-          configuration, IDS/IPS, and malware/C&C traffic investigation. I am
-          building hands-on home-lab projects to develop practical security
-          monitoring and incident analysis skills.
-        </p>
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            AVAILABLE FOR JUNIOR SECURITY ROLES
+          </p>
+
+          <h1>
+            Defending systems.<br />
+            <span>Investigating signals.</span>
+          </h1>
+
+          <p class="hero-text">
+            I am <strong>Sai Sat Naing Win</strong>, a BSc Computing graduate
+            with Distinction, building a career in Security Operations and
+            Network Defense.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              Explore projects <span>↓</span>
+            </a>
+            <a
+              class="button button-secondary"
+              href="Sai_Sat_Naing_Win_Resume.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Download CV <span>↗</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">FOCUS</span>
+              <span class="meta-value">SOC / BLUE TEAM</span>
+            </div>
+            <div>
+              <span class="meta-label">BASED IN</span>
+              <span class="meta-value">YANGON, MYANMAR</span>
+            </div>
+            <div>
+              <span class="meta-label">EDUCATION</span>
+              <span class="meta-value">BSC (HONS), DISTINCTION</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Security dashboard illustration">
+          <div class="radar-card">
+            <div class="radar-top">
+              <span>LIVE THREAT MONITOR</span>
+              <span class="online"><i></i> SYSTEM ONLINE</span>
+            </div>
+
+            <div class="radar">
+              <span class="radar-ring ring-one"></span>
+              <span class="radar-ring ring-two"></span>
+              <span class="radar-ring ring-three"></span>
+              <span class="radar-line line-one"></span>
+              <span class="radar-line line-two"></span>
+              <span class="radar-sweep"></span>
+              <span class="radar-point point-one"></span>
+              <span class="radar-point point-two"></span>
+              <span class="radar-point point-three"></span>
+              <span class="radar-center"></span>
+            </div>
+
+            <div class="radar-bottom">
+              <div>
+                <span>NETWORK STATUS</span>
+                <strong>MONITORED</strong>
+              </div>
+              <div>
+                <span>ANALYST MODE</span>
+                <strong>ACTIVE</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-one">
+            <span class="mini-icon">⌘</span>
+            <div>
+              <small>TRAFFIC ANALYSIS</small>
+              <strong>Wireshark + Python</strong>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-two">
+            <span class="mini-icon shield">◈</span>
+            <div>
+              <small>NETWORK DEFENSE</small>
+              <strong>Firewall / IDS</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container signal-strip">
+        <span>NETWORK SECURITY</span>
+        <span>•</span>
+        <span>LOG ANALYSIS</span>
+        <span>•</span>
+        <span>INCIDENT TRIAGE</span>
+        <span>•</span>
+        <span>LINUX ADMINISTRATION</span>
+        <span>•</span>
+        <span>THREAT DETECTION</span>
       </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="section">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <article class="project-card">
-          <h3 class="project-title">SOC Home Lab</h3>
-          <p class="project-summary">
-            Built an isolated SOC lab using Wazuh with Windows and Linux
-            endpoints. Collected endpoint logs, investigated failed
-            authentication events, and documented alert-triage workflows and
-            recommended response actions.
-          </p>
-          <ul class="project-skills">
-            <li>SIEM</li>
-            <li>Wazuh</li>
-            <li>Windows Event Logs</li>
-            <li>Linux auth logs</li>
-            <li>Alert triage</li>
-            <li>Incident documentation</li>
-          </ul>
-          <div class="project-links">
-            <a
-              class="btn"
-              href="https://github.com/nxr2/soc-home-lab"
-              target="_blank"
-              rel="noopener"
-              >View on GitHub</a
-            >
-          </div>
-        </article>
-
-        <!-- Project 2 -->
-        <article class="project-card">
-          <h3 class="project-title">Network Traffic Analysis</h3>
-          <p class="project-summary">
-            Analyzed network traffic using Wireshark and a custom Python 3
-            packet analyzer. Investigated DNS, HTTP, TCP, and UDP flows and
-            looked for suspicious patterns such as repeated connections and
-            unusual DNS behavior.
-          </p>
-          <ul class="project-skills">
-            <li>Wireshark</li>
-            <li>Python 3</li>
-            <li>PCAP analysis</li>
-            <li>DNS / HTTP / TCP / UDP</li>
-            <li>Traffic investigation</li>
-          </ul>
-          <div class="project-links">
-            <a
-              class="btn"
-              href="https://github.com/nxr2/network-traffic-analysis"
-              target="_blank"
-              rel="noopener"
-              >View on GitHub</a
-            >
-          </div>
-        </article>
-
-        <!-- Project 3 -->
-        <article class="project-card">
-          <h3 class="project-title">Linux Firewall & IDS Lab</h3>
-          <p class="project-summary">
-            Configured an iptables stateful firewall on Linux, implemented
-            egress filtering and ICMP rate limiting, and tested basic Suricata
-            IDS rules against lab-generated traffic.
-          </p>
-          <ul class="project-skills">
-            <li>iptables</li>
-            <li>Linux</li>
-            <li>Firewall rules</li>
-            <li>IDS/IPS</li>
-            <li>Suricata / Snort</li>
-          </ul>
-          <div class="project-links">
-            <a
-              class="btn"
-              href="https://github.com/nxr2/linux-firewall-ids-lab"
-              target="_blank"
-              rel="noopener"
-              >View on GitHub</a
-            >
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="section">
-      <h2 class="section-title">Technical Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Security Operations</h3>
-          <ul>
-            <li>SIEM fundamentals</li>
-            <li>Alert triage</li>
-            <li>Incident documentation</li>
-            <li>Log analysis</li>
-            <li>Basic threat detection</li>
-            <li>IDS/IPS concepts</li>
-          </ul>
+    <section id="about" class="section section-about">
+      <div class="container two-column">
+        <div class="section-intro">
+          <p class="section-kicker">01 / ABOUT</p>
+          <h2>A security-focused<br />problem solver.</h2>
         </div>
 
-        <div class="skill-category">
-          <h3>Network Security</h3>
-          <ul>
-            <li>Wireshark</li>
-            <li>TCP/IP, DNS, HTTP/HTTPS, SMB</li>
-            <li>iptables</li>
-            <li>ACLs</li>
-            <li>Firewall testing</li>
-          </ul>
-        </div>
+        <div class="about-content">
+          <p class="lead">
+            I combine a technical foundation in networking and cybersecurity
+            with practical communication and coordination experience.
+          </p>
 
-        <div class="skill-category">
-          <h3>Operating Systems</h3>
-          <ul>
-            <li>Ubuntu</li>
-            <li>Linux Mint</li>
-            <li>Parrot OS</li>
-            <li>CentOS</li>
-            <li>UNIX administration</li>
-            <li>SELinux</li>
-          </ul>
-        </div>
+          <p>
+            My university coursework and projects developed my skills in packet
+            analysis, Linux administration, firewall configuration, IDS/IPS
+            concepts, Docker, Python, and malware traffic analysis. I am
+            focused on developing the practical mindset required for a Junior
+            SOC Analyst: investigate alerts carefully, document evidence
+            clearly, and escalate appropriately.
+          </p>
 
-        <div class="skill-category">
-          <h3>Programming & Tools</h3>
-          <ul>
-            <li>Python 3</li>
-            <li>Docker</li>
-            <li>Git / GitHub</li>
-            <li>Apache</li>
-            <li>Regular expressions</li>
-          </ul>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">2025</span>
+              <span class="stat-label">BSc graduation</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Core security labs</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">01</span>
+              <span class="stat-label">Career focus: SOC</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Resume -->
-    <section id="resume" class="section">
-      <h2 class="section-title">Resume</h2>
-      <div class="section-content">
-        <p>
-          You can view and download my latest resume below.
-        </p>
-        <div class="resume-links">
+    <section id="projects" class="section section-projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">02 / SELECTED WORK</p>
+            <h2>Security projects<br />in progress.</h2>
+          </div>
+          <p class="section-description">
+            Hands-on labs designed to demonstrate practical security
+            monitoring, network analysis, and defensive configuration skills.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-row">
+            <div class="project-number">01</div>
+            <div class="project-main">
+              <p class="project-category">SECURITY OPERATIONS / SIEM</p>
+              <h3>SOC Home Lab</h3>
+              <p>
+                Building a controlled SOC environment using Wazuh, Windows,
+                and Linux endpoints to collect logs, investigate alerts, and
+                document incident-triage workflows.
+              </p>
+              <div class="tag-list">
+                <span>Wazuh</span>
+                <span>SIEM</span>
+                <span>Windows Event Logs</span>
+                <span>Linux Logs</span>
+                <span>Alert Triage</span>
+              </div>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/NxR2/soc-home-lab"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open SOC Home Lab repository"
+            >
+              <span>VIEW CASE</span>
+              <b>↗</b>
+            </a>
+          </article>
+
+          <article class="project-row">
+            <div class="project-number">02</div>
+            <div class="project-main">
+              <p class="project-category">NETWORK FORENSICS / PYTHON</p>
+              <h3>Network Traffic Analysis</h3>
+              <p>
+                Analyzing PCAP files with Wireshark and Python to inspect
+                DNS, HTTP, TCP, and UDP traffic, identify suspicious flows,
+                and summarize network activity.
+              </p>
+              <div class="tag-list">
+                <span>Wireshark</span>
+                <span>Python 3</span>
+                <span>PCAP</span>
+                <span>DNS</span>
+                <span>TCP/IP</span>
+              </div>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/NxR2/network-traffic-analysis"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open Network Traffic Analysis repository"
+            >
+              <span>VIEW CASE</span>
+              <b>↗</b>
+            </a>
+          </article>
+
+          <article class="project-row">
+            <div class="project-number">03</div>
+            <div class="project-main">
+              <p class="project-category">NETWORK DEFENSE / IDS</p>
+              <h3>Linux Firewall & IDS Lab</h3>
+              <p>
+                Configuring and testing a stateful iptables firewall,
+                egress-filtering rules, ICMP rate limiting, and IDS detection
+                rules in an isolated Linux lab.
+              </p>
+              <div class="tag-list">
+                <span>iptables</span>
+                <span>Suricata</span>
+                <span>IDS/IPS</span>
+                <span>ACL</span>
+                <span>Linux</span>
+              </div>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/NxR2/linux-firewall-ids-lab"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open Linux Firewall and IDS Lab repository"
+            >
+              <span>VIEW CASE</span>
+              <b>↗</b>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-skills">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">03 / TECHNICAL TOOLKIT</p>
+            <h2>Built for detection<br />and defense.</h2>
+          </div>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skill-panel active-skill">
+            <span class="skill-index">01</span>
+            <h3>Security Operations</h3>
+            <p>
+              SIEM fundamentals, log analysis, alert triage, incident
+              documentation, IDS/IPS concepts, and basic threat detection.
+            </p>
+          </div>
+
+          <div class="skill-panel">
+            <span class="skill-index">02</span>
+            <h3>Network Security</h3>
+            <p>
+              Wireshark, TCP/IP, DNS, HTTP/HTTPS, SMB, iptables, ACLs,
+              firewall testing, and packet-level analysis.
+            </p>
+          </div>
+
+          <div class="skill-panel">
+            <span class="skill-index">03</span>
+            <h3>Linux & Systems</h3>
+            <p>
+              Ubuntu, Linux Mint, Parrot OS, CentOS, UNIX administration,
+              SELinux, Apache, Docker, and core system operations.
+            </p>
+          </div>
+
+          <div class="skill-panel">
+            <span class="skill-index">04</span>
+            <h3>Programming & Analysis</h3>
+            <p>
+              Python 3, regular expressions, packet analyser development,
+              traffic-size analysis, proxy log review, and C&C detection
+              concepts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-experience">
+      <div class="container two-column">
+        <div class="section-intro">
+          <p class="section-kicker">04 / BACKGROUND</p>
+          <h2>Technical foundation.<br />Professional discipline.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">APR 2025 — PRESENT</span>
+            <div>
+              <h3>Business Development Assistant</h3>
+              <p class="timeline-company">Marga Landmark Company Ltd.</p>
+              <p>
+                Coordinate across departments and liaise with government
+                departments on project-related matters and approvals. This
+                work strengthens stakeholder communication, accuracy, and
+                documentation skills relevant to security operations.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-date">SEP 2025</span>
+            <div>
+              <h3>BSc (Hons) Computing with Distinction</h3>
+              <p class="timeline-company">Edinburgh Napier University</p>
+              <p>
+                Completed coursework and academic projects in cybersecurity,
+                networking, Linux system administration, Python, network
+                analysis, firewall configuration, and IDS/IPS concepts.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-date">ACADEMIC PROJECT</span>
+            <div>
+              <h3>Final Year Group Project — UAT</h3>
+              <p class="timeline-company">BSc Capstone Project</p>
+              <p>
+                Authored use cases and test cases, performed user acceptance
+                testing, documented results, and communicated findings to the
+                project team.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker">05 / CONTACT</p>
+          <h2>Let’s strengthen<br />security together.</h2>
+          <p>
+            I am seeking Junior SOC Analyst, Junior Cybersecurity Analyst, or
+            Network Security / IT opportunities where I can learn, contribute,
+            and grow.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:YOUR_EMAIL@example.com">
+            <span>EMAIL</span>
+            <strong>YOUR_EMAIL@example.com</strong>
+            <b>↗</b>
+          </a>
+
           <a
-            class="btn"
-            href="https://github.com/nxr2/resume"
+            href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME"
             target="_blank"
             rel="noopener"
-            >View Resume Repository</a
           >
+            <span>LINKEDIN</span>
+            <strong>linkedin.com/in/YOUR_LINKEDIN_USERNAME</strong>
+            <b>↗</b>
+          </a>
+
           <a
-            class="btn"
-            href="https://github.com/nxr2/saisat_portfolio/blob/main/SaiSatNaingWin.pdf"
+            href="https://github.com/nxr2"
             target="_blank"
             rel="noopener"
-            >Download Resume (PDF)</a
           >
+            <span>GITHUB</span>
+            <strong>github.com/nxr2</strong>
+            <b>↗</b>
+          </a>
         </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section">
-      <h2 class="section-title">Contact</h2>
-      <div class="section-content">
-        <p>
-          I am open to Junior SOC Analyst and Junior Cybersecurity Analyst
-          opportunities.
-        </p>
-        <ul class="contact-list">
-          <li>
-            <strong>Email:</strong>
-            <a href="mailto:saisatnaingwin2020@gmail.com">saisatnaingwin2020@gmail.com</a>
-          </li>
-          <li>
-            <strong>LinkedIn:</strong>
-            <a
-              href="https://www.linkedin.com/in/sai-sat-naing-win-6140b5239/"
-              target="_blank"
-              rel="noopener"
-              >linkedin.com/in/sai-sat-naing-win-6140b5239/</a
-            >
-          </li>
-          <li>
-            <strong>GitHub:</strong>
-            <a
-              href="https://github.com/nxr2"
-              target="_blank"
-              rel="noopener"
-              >github.com/nxr2</a
-            >
-          </li>
-          <li><strong>Location:</strong> Myanmar </li>
-        </ul>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>
-        &copy; 2026 Sai Sat Naing Win. All rights reserved.
-      </p>
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© 2026 SAI SAT NAING WIN</p>
+      <p>JUNIOR SOC ANALYST / CYBERSECURITY ANALYST</p>
     </div>
   </footer>
 </body>
